@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.New"
+        tools:targetApi="31">
+        <activity
+            android:name=".sem3v"
+            android:exported="false" />
+        <activity
+            android:name=".s1_s2v"
+            android:exported="false" />
+        <activity
+            android:name=".ss1_ss2"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa2"
+            android:exported="false" />
+        <activity
+            android:name=".sem7v"
+            android:exported="false" />
+        <activity
+            android:name=".sem8v"
+            android:exported="false" />
+        <activity
+            android:name=".sem6v"
+            android:exported="false" />
+        <activity
+            android:name=".sem5v"
+            android:exported="false" />
+        <activity
+            android:name=".sem4v"
+            android:exported="false" />
+        <activity
+            android:name=".sem2v"
+            android:exported="false" />
+        <activity
+            android:name=".sem1v"
+            android:exported="false" />
+        <activity
+            android:name=".scheme2"
+            android:exported="false" />
+        <activity
+            android:name=".scheme3"
+            android:exported="false" />
+        <activity
+            android:name=".d"
+            android:exported="false" />
+        <activity
+            android:name=".s1_s2"
+            android:exported="false" />
+        <activity
+            android:name=".sem7_mech"
+            android:exported="false" />
+        <activity
+            android:name=".sem7_cs"
+            android:exported="false" />
+        <activity
+            android:name=".sem8_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sem7_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sem6_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sem5_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sem4_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sem3_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sem2_activity"
+            android:exported="false" />
+        <activity
+            android:name=".sem1_activity"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity3"
+            android:exported="false" />
+        <activity
+            android:name=".Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

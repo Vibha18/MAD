@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mad2"
+    tools:context=".sem3_activity">
+
+
+    <Button
+        android:id="@+id/s1_btn3"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:onClick="reset"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <Button
+        android:id="@+id/s1_btn2"
+        android:layout_width="131dp"
+        android:layout_height="49dp"
+        android:onClick="call"
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <EditText
+        android:id="@+id/sgpa"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="117dp"
+        android:layout_height="39dp"
+        android:text="SGPA"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.241"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
+
+    <TextView
+        android:id="@+id/sem2"
+        android:layout_width="336dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-10dp"
+        android:gravity="center"
+        android:text="Enter marks with respect to Subject code"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <TextView
+        android:id="@+id/sem"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18**31 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18**35 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18***38 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18***39 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18***37 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18**36 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18**34 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18**33 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:text="18**32 :"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s36"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s37"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-3dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.563" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s38"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s39"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s31"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s32"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-9dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.204" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s33"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="-11dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s34"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/s35"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/alert_light_frame"
+        android:hint="0"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
